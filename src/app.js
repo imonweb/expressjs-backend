@@ -7,7 +7,7 @@ app.get('/api', (req, res) => {
 });
 
 app.get('/api/hello', (req, res) => {
-  res.json({ msg: 'Hello!', status: 200 });
+  res.json({ msg: 'Hi!', status: 200 });
 });
 
 app.get('/api/dashboard', (req, res) => {
